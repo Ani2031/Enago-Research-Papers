@@ -1,0 +1,24 @@
+$primary-color: #2d6cdf;
+$secondary-color: #f4f6f9;
+$text-color: #333;
+
+.card {
+  background: $secondary-color;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  transition: 0.2s;
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+}
+
+.view-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  background: $primary-color;
+  color: white;
+  text-decoration: none;
+}
